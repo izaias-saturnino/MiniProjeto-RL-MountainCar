@@ -1,0 +1,19 @@
+Python 3.14.7 | gymnasium 1.4.0 | numpy 2.5.4 | pandas 3.1.0 | seaborn 0.13.2 | Colab: False
+10 seeds | 500 episódios/execução | discretizações: ['baixa_resolucao', 'alta_resolucao'] | resultados em "resultados/"
+[baixa_resolucao] 100 estados discretos | dim0: 10 bins (largura 0.18), dim1: 10 bins (largura 0.014)
+[alta_resolucao] 1600 estados discretos | dim0: 40 bins (largura 0.045), dim1: 40 bins (largura 0.0035)
+baixa_resolucao {(-0.5, 0.0): ((3, 5), 35), (-1.2, -0.07): ((0, 0), 0), (0.6, 0.07): ((9, 9), 99)}
+alta_resolucao {(-0.5, 0.0): ((15, 20), 620), (-1.2, -0.07): ((0, 0), 0), (0.6, 0.07): ((39, 39), 1599)}
+Agentes disponíveis: ['Q-learning', 'SARSA(λ)', 'Dyna-Q']
+[media_resolucao] 400 estados discretos | dim0: 20 bins (largura 0.09), dim1: 20 bins (largura 0.007)
+[pos_detalhada] 108 estados discretos | dim0: 18 bins (largura 0.05..0.2), dim1: 6 bins (largura 0.02333..0.02333)
+[vel_detalhada] 96 estados discretos | dim0: 6 bins (largura 0.3), dim1: 16 bins (largura 0.002..0.02)
+[pos_vel_detalhada] 288 estados discretos | dim0: 18 bins (largura 0.05..0.2), dim1: 16 bins (largura 0.002..0.02)
+parte 0/1: 6 de 136 execuções -> D:\Projetos\Assignments\resultados
+[1/6] baixa_resolucao Q-learning  alpha=0.05               2.0 min  (total 2.0 min)
+[2/6] alta_resolucao Q-learning  alpha=0.05               1.6 min  (total 3.6 min)
+[3/6] baixa_resolucao SARSA(λ)    alpha=0.05               2.1 min  (total 5.7 min)
+[4/6] alta_resolucao SARSA(λ)    alpha=0.05               2.5 min  (total 8.2 min)
+[5/6] baixa_resolucao Dyna-Q      alpha=0.05               3.1 min  (total 11.3 min)
+[6/6] alta_resolucao Dyna-Q      alpha=0.05               3.6 min  (total 14.9 min)
+FIM

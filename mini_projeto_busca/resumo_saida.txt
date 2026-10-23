@@ -1,0 +1,264 @@
+
+=== alta_resolucao | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  N=20                           final  153.2 ±  2.7 | 1º sucesso ep   90.7 (10/10 seeds) | média todos  170.2 | atualiz. Q   1.79 M
+  q_inicial=-100                 final  157.4 ±  2.5 | 1º sucesso ep  118.2 (10/10 seeds) | média todos  178.3 | atualiz. Q   0.98 M
+  q_inicial=-300                 final  158.7 ±  2.2 | 1º sucesso ep  118.2 (10/10 seeds) | média todos  179.9 | atualiz. Q   0.99 M
+  eps=0.1,q_inicial=-100         final  160.7 ±  2.2 | 1º sucesso ep   97.8 (10/10 seeds) | média todos  179.2 | atualiz. Q   0.99 M
+  decay=0.95,q_inicial=-100      final  161.2 ±  2.6 | 1º sucesso ep   86.9 (10/10 seeds) | média todos  179.9 | atualiz. Q   0.99 M
+  decay=0.95,q_inicial=-300      final  161.3 ±  3.4 | 1º sucesso ep   86.5 (10/10 seeds) | média todos  179.4 | atualiz. Q   0.99 M
+  eps=0.1,q_inicial=-300         final  161.5 ±  1.9 | 1º sucesso ep   97.8 (10/10 seeds) | média todos  180.0 | atualiz. Q   0.99 M
+  eps=0.1,decay=0.95,q_inicial=-300 final  162.8 ±  3.4 | 1º sucesso ep   94.4 (10/10 seeds) | média todos  181.0 | atualiz. Q   1.00 M
+  eps=0.1,decay=0.95,q_inicial=-100 final  163.4 ±  2.5 | 1º sucesso ep   94.9 (10/10 seeds) | média todos  181.2 | atualiz. Q   1.00 M
+  padrao                         final  165.7 ±  3.4 | 1º sucesso ep  115.4 (10/10 seeds) | média todos  182.1 | atualiz. Q   1.00 M
+  gamma=0.9                      final  165.9 ±  2.3 | 1º sucesso ep  108.1 (10/10 seeds) | média todos  181.4 | atualiz. Q   1.00 M
+  eps=0.1                        final  166.3 ±  3.5 | 1º sucesso ep   96.3 (10/10 seeds) | média todos  183.1 | atualiz. Q   1.01 M
+  decay=0.9                      final  167.5 ±  3.5 | 1º sucesso ep   99.8 (10/10 seeds) | média todos  183.5 | atualiz. Q   1.01 M
+  alpha=0.3                      final  168.9 ±  1.8 | 1º sucesso ep  116.8 (10/10 seeds) | média todos  182.9 | atualiz. Q   1.01 M
+  eps=0.1,decay=0.95             final  170.2 ±  2.3 | 1º sucesso ep   92.3 (10/10 seeds) | média todos  184.4 | atualiz. Q   1.01 M
+  decay=0.95                     final  171.5 ±  3.3 | 1º sucesso ep   85.1 (10/10 seeds) | média todos  184.3 | atualiz. Q   1.01 M
+  alpha=0.05                     final  173.6 ±  3.3 | 1º sucesso ep  137.6 (10/10 seeds) | média todos  187.5 | atualiz. Q   1.03 M
+  modelo=ultimo                  final  182.2 ±  5.4 | 1º sucesso ep  159.6 (10/10 seeds) | média todos  192.4 | atualiz. Q   1.06 M
+  gamma=0.9,q_inicial=-100       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   1.10 M
+  gamma=0.9,q_inicial=-300       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   1.10 M
+
+=== alta_resolucao | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  gamma=0.9                      final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  q_inicial=-100                 final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  q_inicial=-300                 final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1                        final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1,decay=0.95             final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  decay=0.95                     final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  alpha=0.3                      final  200.0 ±  0.0 | 1º sucesso ep  350.0 (1/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  decay=0.9                      final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  gamma=0.9,q_inicial=-100       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  gamma=0.9,q_inicial=-300       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1,q_inicial=-100         final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1,q_inicial=-300         final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  decay=0.95,q_inicial=-100      final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  decay=0.95,q_inicial=-300      final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1,decay=0.95,q_inicial=-100 final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1,decay=0.95,q_inicial=-300 final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  alpha=0.05                     final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+
+=== alta_resolucao | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  alpha=0.3                      final  200.0 ±  0.1 | 1º sucesso ep  442.0 (3/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  padrao                         final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  gamma=0.9                      final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  q_inicial=-100                 final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  q_inicial=-300                 final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1                        final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1,decay=0.95             final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  decay=0.95                     final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  lambda=0.7                     final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   5.80 M
+  lambda=0.9                     final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   5.44 M
+  lambda=0.99                    final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   4.79 M
+  decay=0.9                      final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  lambda=0.7,traco=acumulativo   final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   5.99 M
+  lambda=0.9,traco=acumulativo   final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   5.89 M
+  lambda=0.99,traco=acumulativo  final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   5.41 M
+  gamma=0.9,q_inicial=-100       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  gamma=0.9,q_inicial=-300       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1,q_inicial=-100         final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1,q_inicial=-300         final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  decay=0.95,q_inicial=-100      final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  decay=0.95,q_inicial=-300      final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1,decay=0.95,q_inicial=-100 final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  eps=0.1,decay=0.95,q_inicial=-300 final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  alpha=0.05                     final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+
+=== baixa_resolucao | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  alpha=0.05                     final  165.7 ±  2.8 | 1º sucesso ep   60.9 (10/10 seeds) | média todos  177.0 | atualiz. Q   0.97 M
+  eps=0.1,decay=0.95,q_inicial=-300 final  175.6 ±  2.4 | 1º sucesso ep   38.5 (10/10 seeds) | média todos  178.6 | atualiz. Q   0.98 M
+  decay=0.95,q_inicial=-300      final  176.6 ±  4.1 | 1º sucesso ep   53.9 (10/10 seeds) | média todos  179.9 | atualiz. Q   0.99 M
+  eps=0.1,q_inicial=-300         final  177.8 ±  2.3 | 1º sucesso ep   33.8 (10/10 seeds) | média todos  181.1 | atualiz. Q   1.00 M
+  decay=0.9                      final  178.0 ±  2.6 | 1º sucesso ep   45.1 (10/10 seeds) | média todos  181.4 | atualiz. Q   1.00 M
+  decay=0.95                     final  178.2 ±  3.0 | 1º sucesso ep   53.9 (10/10 seeds) | média todos  182.4 | atualiz. Q   1.00 M
+  q_inicial=-300                 final  178.3 ±  2.1 | 1º sucesso ep   80.9 (10/10 seeds) | média todos  183.7 | atualiz. Q   1.01 M
+  q_inicial=-100                 final  178.3 ±  1.7 | 1º sucesso ep   80.9 (10/10 seeds) | média todos  184.9 | atualiz. Q   1.02 M
+  eps=0.1,decay=0.95             final  178.3 ±  2.3 | 1º sucesso ep   42.1 (10/10 seeds) | média todos  181.3 | atualiz. Q   1.00 M
+  eps=0.1,decay=0.95,q_inicial=-100 final  178.5 ±  2.7 | 1º sucesso ep   38.5 (10/10 seeds) | média todos  180.2 | atualiz. Q   0.99 M
+  decay=0.95,q_inicial=-100      final  178.5 ±  3.5 | 1º sucesso ep   53.9 (10/10 seeds) | média todos  181.3 | atualiz. Q   1.00 M
+  padrao                         final  178.6 ±  1.9 | 1º sucesso ep   80.9 (10/10 seeds) | média todos  185.7 | atualiz. Q   1.02 M
+  N=20                           final  178.9 ±  1.9 | 1º sucesso ep  112.7 (10/10 seeds) | média todos  186.7 | atualiz. Q   1.96 M
+  eps=0.1                        final  179.0 ±  1.6 | 1º sucesso ep   34.1 (10/10 seeds) | média todos  184.7 | atualiz. Q   1.02 M
+  eps=0.1,q_inicial=-100         final  179.4 ±  3.0 | 1º sucesso ep   33.8 (10/10 seeds) | média todos  182.9 | atualiz. Q   1.01 M
+  gamma=0.9                      final  197.1 ±  1.8 | 1º sucesso ep  207.8 (8/10 seeds) | média todos  198.3 | atualiz. Q   1.09 M
+  modelo=ultimo                  final  199.5 ±  0.8 | 1º sucesso ep  324.7 (7/10 seeds) | média todos  199.7 | atualiz. Q   1.10 M
+  alpha=0.3                      final  199.6 ±  0.3 | 1º sucesso ep  332.9 (8/10 seeds) | média todos  199.8 | atualiz. Q   1.10 M
+  gamma=0.9,q_inicial=-100       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   1.10 M
+  gamma=0.9,q_inicial=-300       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   1.10 M
+
+=== baixa_resolucao | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  eps=0.1,decay=0.95,q_inicial=-100 final  178.4 ±  7.7 | 1º sucesso ep  145.9 (10/10 seeds) | média todos  193.6 | atualiz. Q   0.10 M
+  q_inicial=-100                 final  178.6 ± 10.7 | 1º sucesso ep  186.8 (10/10 seeds) | média todos  192.4 | atualiz. Q   0.10 M
+  eps=0.1,q_inicial=-300         final  180.5 ± 11.0 | 1º sucesso ep  158.8 (10/10 seeds) | média todos  192.0 | atualiz. Q   0.10 M
+  q_inicial=-300                 final  180.6 ±  9.6 | 1º sucesso ep  186.8 (10/10 seeds) | média todos  193.6 | atualiz. Q   0.10 M
+  eps=0.1,q_inicial=-100         final  181.4 ±  8.3 | 1º sucesso ep  157.7 (10/10 seeds) | média todos  195.0 | atualiz. Q   0.10 M
+  eps=0.1,decay=0.95,q_inicial=-300 final  183.5 ±  8.4 | 1º sucesso ep  147.1 (10/10 seeds) | média todos  192.7 | atualiz. Q   0.10 M
+  decay=0.95,q_inicial=-100      final  183.9 ±  7.7 | 1º sucesso ep  162.8 (10/10 seeds) | média todos  192.6 | atualiz. Q   0.10 M
+  eps=0.1,decay=0.95             final  184.6 ±  7.5 | 1º sucesso ep  141.9 (10/10 seeds) | média todos  195.8 | atualiz. Q   0.10 M
+  decay=0.95,q_inicial=-300      final  185.5 ±  8.1 | 1º sucesso ep  170.7 (10/10 seeds) | média todos  194.2 | atualiz. Q   0.10 M
+  padrao                         final  188.2 ±  6.1 | 1º sucesso ep  173.3 (10/10 seeds) | média todos  196.4 | atualiz. Q   0.10 M
+  decay=0.95                     final  189.0 ±  7.3 | 1º sucesso ep  192.2 (10/10 seeds) | média todos  197.0 | atualiz. Q   0.10 M
+  alpha=0.3                      final  189.5 ±  5.4 | 1º sucesso ep  181.1 (10/10 seeds) | média todos  196.2 | atualiz. Q   0.10 M
+  eps=0.1                        final  190.5 ±  7.3 | 1º sucesso ep  135.6 (10/10 seeds) | média todos  196.4 | atualiz. Q   0.10 M
+  decay=0.9                      final  191.2 ±  4.7 | 1º sucesso ep  186.2 (10/10 seeds) | média todos  196.7 | atualiz. Q   0.10 M
+  gamma=0.9                      final  194.1 ±  3.4 | 1º sucesso ep  236.1 (10/10 seeds) | média todos  197.6 | atualiz. Q   0.10 M
+  alpha=0.05                     final  198.1 ±  1.6 | 1º sucesso ep  239.2 (10/10 seeds) | média todos  198.6 | atualiz. Q   0.10 M
+  gamma=0.9,q_inicial=-100       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  gamma=0.9,q_inicial=-300       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+
+=== baixa_resolucao | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  lambda=0.9,traco=acumulativo   final  147.3 ±  3.5 | 1º sucesso ep   91.1 (10/10 seeds) | média todos  167.0 | atualiz. Q   1.74 M
+  lambda=0.9                     final  150.4 ± 10.8 | 1º sucesso ep  120.6 (10/10 seeds) | média todos  177.7 | atualiz. Q   2.08 M
+  lambda=0.99,traco=acumulativo  final  164.3 ±  7.8 | 1º sucesso ep  157.2 (10/10 seeds) | média todos  179.6 | atualiz. Q   1.76 M
+  lambda=0.7,traco=acumulativo   final  165.4 ±  8.6 | 1º sucesso ep  129.8 (10/10 seeds) | média todos  183.8 | atualiz. Q   1.98 M
+  lambda=0.99                    final  168.6 ±  7.3 | 1º sucesso ep  145.6 (10/10 seeds) | média todos  183.6 | atualiz. Q   1.90 M
+  decay=0.95,q_inicial=-300      final  172.3 ±  7.9 | 1º sucesso ep   99.0 (10/10 seeds) | média todos  187.8 | atualiz. Q   0.09 M
+  q_inicial=-300                 final  173.7 ±  7.5 | 1º sucesso ep  149.4 (10/10 seeds) | média todos  188.4 | atualiz. Q   0.09 M
+  lambda=0.7                     final  174.0 ±  7.4 | 1º sucesso ep  126.7 (10/10 seeds) | média todos  190.4 | atualiz. Q   2.43 M
+  eps=0.1,q_inicial=-100         final  175.3 ± 13.7 | 1º sucesso ep  131.3 (10/10 seeds) | média todos  189.2 | atualiz. Q   0.09 M
+  q_inicial=-100                 final  175.4 ± 10.2 | 1º sucesso ep  149.4 (10/10 seeds) | média todos  189.8 | atualiz. Q   0.09 M
+  decay=0.95,q_inicial=-100      final  176.1 ±  6.3 | 1º sucesso ep   99.0 (10/10 seeds) | média todos  190.3 | atualiz. Q   0.10 M
+  eps=0.1,decay=0.95,q_inicial=-300 final  176.2 ±  9.7 | 1º sucesso ep   99.2 (10/10 seeds) | média todos  189.0 | atualiz. Q   0.09 M
+  eps=0.1,decay=0.95,q_inicial=-100 final  177.8 ±  8.4 | 1º sucesso ep  115.1 (10/10 seeds) | média todos  191.5 | atualiz. Q   0.10 M
+  alpha=0.3                      final  181.3 ±  7.5 | 1º sucesso ep  148.5 (10/10 seeds) | média todos  191.0 | atualiz. Q   0.10 M
+  eps=0.1,q_inicial=-300         final  183.0 ±  6.9 | 1º sucesso ep  133.9 (10/10 seeds) | média todos  192.3 | atualiz. Q   0.10 M
+  decay=0.9                      final  184.1 ±  6.6 | 1º sucesso ep  120.5 (10/10 seeds) | média todos  193.6 | atualiz. Q   0.10 M
+  gamma=0.9                      final  184.4 ±  8.3 | 1º sucesso ep  146.5 (10/10 seeds) | média todos  195.9 | atualiz. Q   0.10 M
+  padrao                         final  184.6 ±  6.7 | 1º sucesso ep  155.5 (10/10 seeds) | média todos  194.3 | atualiz. Q   0.10 M
+  eps=0.1,decay=0.95             final  184.7 ±  4.2 | 1º sucesso ep  107.4 (10/10 seeds) | média todos  194.2 | atualiz. Q   0.10 M
+  eps=0.1                        final  187.5 ±  6.5 | 1º sucesso ep  126.3 (10/10 seeds) | média todos  193.6 | atualiz. Q   0.10 M
+  decay=0.95                     final  188.2 ±  5.9 | 1º sucesso ep  103.5 (10/10 seeds) | média todos  194.1 | atualiz. Q   0.10 M
+  alpha=0.05                     final  191.0 ±  2.9 | 1º sucesso ep  195.9 (10/10 seeds) | média todos  197.1 | atualiz. Q   0.10 M
+  gamma=0.9,q_inicial=-100       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+  gamma=0.9,q_inicial=-300       final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+
+=== media_resolucao | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  158.8 ±  2.0 | 1º sucesso ep   81.2 (10/10 seeds) | média todos  175.2 | atualiz. Q   0.96 M
+
+=== media_resolucao | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  199.7 ±  0.3 | 1º sucesso ep  438.8 (8/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+
+=== media_resolucao | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  199.0 ±  0.7 | 1º sucesso ep  315.5 (10/10 seeds) | média todos  199.7 | atualiz. Q   0.10 M
+
+=== pos_detalhada | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  192.1 ±  1.3 | 1º sucesso ep  155.6 (10/10 seeds) | média todos  196.0 | atualiz. Q   1.08 M
+
+=== pos_detalhada | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  193.5 ±  5.7 | 1º sucesso ep  224.3 (10/10 seeds) | média todos  197.7 | atualiz. Q   0.10 M
+
+=== pos_detalhada | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  191.8 ±  5.8 | 1º sucesso ep  208.0 (10/10 seeds) | média todos  196.7 | atualiz. Q   0.10 M
+
+=== pos_vel_detalhada | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  171.9 ±  3.6 | 1º sucesso ep  116.7 (10/10 seeds) | média todos  189.4 | atualiz. Q   1.04 M
+
+=== pos_vel_detalhada | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  199.7 ±  0.4 | 1º sucesso ep  431.3 (6/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+
+=== pos_vel_detalhada | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  199.6 ±  0.5 | 1º sucesso ep  417.7 (7/10 seeds) | média todos  199.9 | atualiz. Q   0.10 M
+
+=== vel_detalhada | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  176.0 ±  5.3 | 1º sucesso ep  163.6 (10/10 seeds) | média todos  190.7 | atualiz. Q   1.05 M
+
+=== vel_detalhada | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  197.7 ±  2.1 | 1º sucesso ep  222.4 (10/10 seeds) | média todos  198.0 | atualiz. Q   0.10 M
+
+=== vel_detalhada | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  padrao                         final  195.9 ±  2.3 | 1º sucesso ep  188.2 (10/10 seeds) | média todos  197.8 | atualiz. Q   0.10 M
+figura: D:\Projetos\Assignments\mini_projeto_busca\desempenho_final_baixa_resolucao.png
+figura: D:\Projetos\Assignments\mini_projeto_busca\desempenho_final_alta_resolucao.png
+figura: D:\Projetos\Assignments\mini_projeto_busca\discretizacoes_padrao.png
+tabela: D:\Projetos\Assignments\mini_projeto_busca\resumo_busca.csv
+
+######## FASE 2 ########
+
+=== alta_resolucao | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  F2[q_inicial=-100.0,n_planejamento=20] final  152.6 ±  2.4 | 1º sucesso ep   90.7 (10/10 seeds) | média todos  169.2 | atualiz. Q   1.78 M
+  F2[q_inicial=-300.0,n_planejamento=20] final  153.8 ±  3.1 | 1º sucesso ep   90.7 (10/10 seeds) | média todos  169.8 | atualiz. Q   1.78 M
+  F2[alpha=0.05]                 final  173.6 ±  3.3 | 1º sucesso ep  137.6 (10/10 seeds) | média todos  187.5 | atualiz. Q   1.03 M
+
+=== alta_resolucao | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  F2[padrao]                     final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+
+=== alta_resolucao | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  F2[q_inicial=-100.0,lambda_=0.9] final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   5.44 M
+  F2[q_inicial=-100.0,lambda_=0.9,tipo_traco=acumulativo] final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   5.89 M
+  F2[q_inicial=-300.0,lambda_=0.9] final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   5.44 M
+  F2[q_inicial=-300.0,lambda_=0.9,tipo_traco=acumulativo] final  200.0 ±  0.0 | 1º sucesso ep    nan (0/10 seeds) | média todos  200.0 | atualiz. Q   5.89 M
+
+=== baixa_resolucao | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  F2[alpha=0.05]                 final  165.7 ±  2.8 | 1º sucesso ep   60.9 (10/10 seeds) | média todos  177.0 | atualiz. Q   0.97 M
+  F2[q_inicial=-300.0,n_planejamento=20] final  178.6 ±  3.6 | 1º sucesso ep  112.7 (10/10 seeds) | média todos  186.1 | atualiz. Q   1.95 M
+  F2[q_inicial=-100.0,n_planejamento=20] final  179.6 ±  1.7 | 1º sucesso ep  112.7 (10/10 seeds) | média todos  186.6 | atualiz. Q   1.96 M
+
+=== baixa_resolucao | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  F2[padrao]                     final  188.2 ±  6.1 | 1º sucesso ep  173.3 (10/10 seeds) | média todos  196.4 | atualiz. Q   0.10 M
+
+=== baixa_resolucao | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  F2[q_inicial=-100.0,lambda_=0.9] final  151.9 ±  6.7 | 1º sucesso ep  124.1 (10/10 seeds) | média todos  172.2 | atualiz. Q   1.85 M
+  F2[q_inicial=-100.0,lambda_=0.9,tipo_traco=acumulativo] final  159.0 ±  6.9 | 1º sucesso ep   87.5 (10/10 seeds) | média todos  171.5 | atualiz. Q   1.85 M
+  F2[q_inicial=-300.0,lambda_=0.9] final  159.7 ±  6.5 | 1º sucesso ep  132.3 (10/10 seeds) | média todos  174.1 | atualiz. Q   1.88 M
+  F2[q_inicial=-300.0,lambda_=0.9,tipo_traco=acumulativo] final  159.7 ±  6.1 | 1º sucesso ep   87.5 (10/10 seeds) | média todos  170.2 | atualiz. Q   1.80 M
+
+=== media_resolucao | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  F2[q_inicial=-300.0,n_planejamento=20] final  153.2 ±  2.8 | 1º sucesso ep   81.9 (10/10 seeds) | média todos  169.6 | atualiz. Q   1.78 M
+  F2[q_inicial=-100.0,n_planejamento=20] final  155.7 ±  2.9 | 1º sucesso ep   81.9 (10/10 seeds) | média todos  170.8 | atualiz. Q   1.79 M
+  F2[alpha=0.05]                 final  157.2 ±  3.3 | 1º sucesso ep   73.6 (10/10 seeds) | média todos  174.3 | atualiz. Q   0.96 M
+
+=== media_resolucao | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  F2[padrao]                     final  199.7 ±  0.3 | 1º sucesso ep  438.8 (8/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+
+=== media_resolucao | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  F2[q_inicial=-100.0,lambda_=0.9,tipo_traco=acumulativo] final  151.7 ±  9.4 | 1º sucesso ep  218.2 (10/10 seeds) | média todos  179.6 | atualiz. Q   3.42 M
+  F2[q_inicial=-300.0,lambda_=0.9] final  153.4 ± 10.8 | 1º sucesso ep  296.3 (10/10 seeds) | média todos  187.4 | atualiz. Q   3.61 M
+  F2[q_inicial=-300.0,lambda_=0.9,tipo_traco=acumulativo] final  162.8 ±  5.0 | 1º sucesso ep  218.2 (10/10 seeds) | média todos  182.3 | atualiz. Q   3.49 M
+  F2[q_inicial=-100.0,lambda_=0.9] final  163.2 ± 12.5 | 1º sucesso ep  300.8 (10/10 seeds) | média todos  193.9 | atualiz. Q   3.86 M
+
+=== pos_detalhada | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  F2[alpha=0.05]                 final  180.0 ±  3.4 | 1º sucesso ep  114.3 (10/10 seeds) | média todos  188.9 | atualiz. Q   1.04 M
+  F2[q_inicial=-300.0,n_planejamento=20] final  190.1 ±  2.2 | 1º sucesso ep  169.5 (10/10 seeds) | média todos  195.1 | atualiz. Q   2.05 M
+  F2[q_inicial=-100.0,n_planejamento=20] final  192.2 ±  1.7 | 1º sucesso ep  169.4 (10/10 seeds) | média todos  196.2 | atualiz. Q   2.06 M
+
+=== pos_detalhada | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  F2[padrao]                     final  193.5 ±  5.7 | 1º sucesso ep  224.3 (10/10 seeds) | média todos  197.7 | atualiz. Q   0.10 M
+
+=== pos_detalhada | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  F2[q_inicial=-100.0,lambda_=0.9] final  149.9 ±  7.0 | 1º sucesso ep  151.5 (10/10 seeds) | média todos  174.8 | atualiz. Q   2.17 M
+  F2[q_inicial=-100.0,lambda_=0.9,tipo_traco=acumulativo] final  166.1 ±  9.0 | 1º sucesso ep  120.9 (10/10 seeds) | média todos  177.8 | atualiz. Q   2.23 M
+  F2[q_inicial=-300.0,lambda_=0.9] final  168.2 ± 10.6 | 1º sucesso ep  151.5 (10/10 seeds) | média todos  180.9 | atualiz. Q   2.30 M
+  F2[q_inicial=-300.0,lambda_=0.9,tipo_traco=acumulativo] final  170.4 ±  3.5 | 1º sucesso ep  122.0 (10/10 seeds) | média todos  180.6 | atualiz. Q   2.28 M
+
+=== pos_vel_detalhada | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  F2[q_inicial=-300.0,n_planejamento=20] final  154.1 ±  2.3 | 1º sucesso ep   89.0 (10/10 seeds) | média todos  175.6 | atualiz. Q   1.84 M
+  F2[q_inicial=-100.0,n_planejamento=20] final  157.0 ±  3.9 | 1º sucesso ep   89.0 (10/10 seeds) | média todos  176.0 | atualiz. Q   1.85 M
+  F2[alpha=0.05]                 final  182.1 ±  6.9 | 1º sucesso ep  123.5 (10/10 seeds) | média todos  189.8 | atualiz. Q   1.04 M
+
+=== pos_vel_detalhada | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  F2[padrao]                     final  199.7 ±  0.4 | 1º sucesso ep  431.3 (6/10 seeds) | média todos  200.0 | atualiz. Q   0.10 M
+
+=== pos_vel_detalhada | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  F2[q_inicial=-100.0,lambda_=0.9,tipo_traco=acumulativo] final  154.3 ±  9.1 | 1º sucesso ep  185.8 (10/10 seeds) | média todos  175.5 | atualiz. Q   3.87 M
+  F2[q_inicial=-100.0,lambda_=0.9] final  160.5 ± 14.1 | 1º sucesso ep  286.0 (10/10 seeds) | média todos  191.2 | atualiz. Q   4.32 M
+  F2[q_inicial=-300.0,lambda_=0.9,tipo_traco=acumulativo] final  161.5 ±  5.8 | 1º sucesso ep  183.6 (10/10 seeds) | média todos  179.2 | atualiz. Q   3.95 M
+  F2[q_inicial=-300.0,lambda_=0.9] final  169.0 ±  8.9 | 1º sucesso ep  286.0 (10/10 seeds) | média todos  191.4 | atualiz. Q   4.33 M
+
+=== vel_detalhada | Dyna-Q  (ordenado pelo desempenho final; menor = melhor)
+  F2[alpha=0.05]                 final  159.1 ±  7.9 | 1º sucesso ep   89.5 (10/10 seeds) | média todos  183.6 | atualiz. Q   1.01 M
+  F2[q_inicial=-300.0,n_planejamento=20] final  165.7 ±  1.9 | 1º sucesso ep  132.5 (10/10 seeds) | média todos  182.4 | atualiz. Q   1.91 M
+  F2[q_inicial=-100.0,n_planejamento=20] final  169.3 ±  3.6 | 1º sucesso ep  132.5 (10/10 seeds) | média todos  184.3 | atualiz. Q   1.94 M
+
+=== vel_detalhada | Q-learning  (ordenado pelo desempenho final; menor = melhor)
+  F2[padrao]                     final  197.7 ±  2.1 | 1º sucesso ep  222.4 (10/10 seeds) | média todos  198.0 | atualiz. Q   0.10 M
+
+=== vel_detalhada | SARSA(λ)  (ordenado pelo desempenho final; menor = melhor)
+  F2[q_inicial=-100.0,lambda_=0.9,tipo_traco=acumulativo] final  145.1 ±  4.1 | 1º sucesso ep  112.5 (10/10 seeds) | média todos  166.7 | atualiz. Q   2.63 M
+  F2[q_inicial=-100.0,lambda_=0.9] final  146.2 ±  6.6 | 1º sucesso ep  126.1 (10/10 seeds) | média todos  169.3 | atualiz. Q   2.63 M
+  F2[q_inicial=-300.0,lambda_=0.9,tipo_traco=acumulativo] final  149.9 ±  6.7 | 1º sucesso ep  112.5 (10/10 seeds) | média todos  167.3 | atualiz. Q   2.59 M
+  F2[q_inicial=-300.0,lambda_=0.9] final  150.7 ± 11.3 | 1º sucesso ep  126.5 (10/10 seeds) | média todos  169.2 | atualiz. Q   2.57 M
+figura: D:\Projetos\Assignments\mini_projeto_busca\fase2_grades.png
+tabela: D:\Projetos\Assignments\mini_projeto_busca\resumo_fase2.csv

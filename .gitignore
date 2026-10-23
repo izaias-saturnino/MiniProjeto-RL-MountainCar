@@ -2,19 +2,7 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-
-# Saídas rápidas de gerar (o notebook e os scripts recriam em segundos ou minutos)
-resultados/figuras/
-resultados/videos/
-resultados/resumo.csv
-resultados/resultados_todos.csv
 resultados_teste_rapido/
-mini_projeto_busca/*.png
-mini_projeto_busca/resumo_*.csv
-mini_projeto_busca/resumo_saida.txt
-mini_projeto_busca/fase2_listagem.txt
-mini_projeto_busca/rodada2_resultados.txt
-mini_projeto_busca/log_*.txt
 
 # Execuções que não fazem parte do plano final (ex.: λ = 0,1, abandonado)
 resultados/_nao_usados/

@@ -32,4 +32,5 @@ python resumo.py
 python rodada2.py --resultados
 ```
 
-Figuras, vídeos, tabelas-resumo e logs não são versionados; são recriados por esses comandos.
+Figuras, vídeos, tabelas-resumo e logs também estão versionados, mas são recriados por esses
+comandos.

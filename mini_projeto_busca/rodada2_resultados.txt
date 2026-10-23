@@ -1,0 +1,57 @@
+C:\Users\Izaias\AppData\Local\Temp\claude\D--Projetos-Assignments\2703f909-685e-4e7d-82d1-d06472659be0\scratchpad\venv\Lib\site-packages\scipy\stats\_axis_nan_policy.py:601: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  res = hypotest_fun_out(*samples, **kwds)
+
+=== Q-learning | baixa_resolucao | nova base R2[q_inicial=-100.0]: 178.6
+     R2[q_inicial=-100.0,decaimento_epsilon=0.9]              170.0 ±  7.5  p=0.157
+     R2[q_inicial=-100.0,alpha=0.3]                           177.3 ± 11.3  p=0.854
+     R2[q_inicial=-300.0]                                     180.6 ±  9.6  p=0.758
+     R2[q_inicial=-100.0,epsilon_inicial=0.1]                 181.4 ±  8.3  p=0.651
+     R2[q_inicial=-100.0,decaimento_epsilon=0.95]             183.9 ±  7.7  p=0.379
+     R2[q_inicial=0.0]                                        188.2 ±  6.1  p=0.100
+     R2[q_inicial=-100.0,alpha=0.05]                          192.9 ±  3.4  p=0.015
+     R2[q_inicial=-100.0,gamma=0.9]                           200.0 ±  0.0  p=0.001
+
+=== SARSA(λ) | baixa_resolucao | nova base R2[lambda_=0.9,tipo_traco=acumulativo]: 147.3
+     R2[lambda_=0.9,tipo_traco=acumulativo,alpha=0.05]        145.0 ±  8.5  p=0.584
+     R2[lambda_=0.9,tipo_traco=acumulativo,epsilon_inicial=0.1]  147.1 ±  4.1  p=0.928
+     R2[lambda_=0.9,tipo_traco=acumulativo,decaimento_epsilon=0.9]  150.0 ±  2.9  p=0.200
+     R2[lambda_=0.9,tipo_traco=substituicao]                  150.4 ± 10.8  p=0.547
+     R2[lambda_=0.9,tipo_traco=acumulativo,decaimento_epsilon=0.95]  152.6 ±  7.3  p=0.165
+     R2[lambda_=0.9,tipo_traco=acumulativo,q_inicial=-100.0]  159.0 ±  6.9  p=0.005
+     R2[lambda_=0.9,tipo_traco=acumulativo,q_inicial=-300.0]  159.7 ±  6.1  p=0.001
+     R2[lambda_=0.99,tipo_traco=acumulativo]                  164.3 ±  7.8  p=0.001
+     R2[lambda_=0.7,tipo_traco=acumulativo]                   165.4 ±  8.6  p=0.001
+     R2[lambda_=0.9,tipo_traco=acumulativo,gamma=0.9]         166.9 ±  7.2  p=0.000
+     R2[lambda_=0.99,tipo_traco=substituicao]                 168.6 ±  7.3  p=0.000
+     R2[lambda_=0.7,tipo_traco=substituicao]                  174.0 ±  7.4  p=0.000
+     R2[lambda_=0.0,tipo_traco=substituicao]                  184.6 ±  6.7  p=0.000
+     R2[lambda_=0.9,tipo_traco=acumulativo,alpha=0.3]         198.8 ±  1.3  p=0.000
+
+=== Dyna-Q | baixa_resolucao | nova base R2[alpha=0.05]: 165.7
+     R2[alpha=0.05,q_inicial=-300.0]                          162.0 ±  3.5  p=0.079
+     R2[alpha=0.02]                                           163.4 ±  3.1  p=0.232
+     R2[alpha=0.05,n_planejamento=20]                         164.0 ±  3.0  p=0.360
+     R2[alpha=0.05,epsilon_inicial=0.1]                       165.8 ±  2.4  p=0.944
+     R2[alpha=0.05,q_inicial=-100.0]                          167.0 ±  2.3  p=0.421
+     R2[alpha=0.05,decaimento_epsilon=0.9]                    167.6 ±  3.8  p=0.354
+     R2[alpha=0.05,decaimento_epsilon=0.95]                   168.9 ±  2.9  p=0.087
+     R2[alpha=0.1]                                            178.6 ±  1.9  p=0.000
+     R2[alpha=0.05,gamma=0.9]                                 186.5 ±  3.7  p=0.000
+     R2[alpha=0.05,tipo_modelo=ultimo]                        196.6 ±  4.8  p=0.000
+     R2[alpha=0.3]                                            199.6 ±  0.3  p=0.000
+
+=== Dyna-Q | alta_resolucao | nova base R2[n_planejamento=20]: 153.2
+  ** R2[n_planejamento=40]                                    148.0 ±  3.0  p=0.009
+     R2[n_planejamento=20,gamma=0.9]                          150.9 ±  1.9  p=0.143
+     R2[n_planejamento=20,q_inicial=-100.0]                   152.6 ±  2.4  p=0.731
+     R2[n_planejamento=20,epsilon_inicial=0.1]                153.6 ±  2.6  p=0.822
+     R2[n_planejamento=20,q_inicial=-300.0]                   153.8 ±  3.1  p=0.725
+     R2[n_planejamento=20,alpha=0.05]                         154.3 ±  3.2  p=0.573
+     R2[n_planejamento=20,decaimento_epsilon=0.9]             154.8 ±  4.5  p=0.504
+     R2[n_planejamento=20,decaimento_epsilon=0.95]            155.3 ±  2.8  p=0.236
+     R2[n_planejamento=20,alpha=0.3]                          165.1 ±  3.7  p=0.000
+     R2[n_planejamento=10]                                    165.7 ±  3.4  p=0.000
+     R2[n_planejamento=20,tipo_modelo=ultimo]                 186.6 ±  4.6  p=0.000
+
+Significativamente melhores que a nova base (Welch 5%; informativo):
+   Dyna-Q | alta_resolucao | R2[n_planejamento=40]: 148.0 vs base 153.2 (p=0.009)

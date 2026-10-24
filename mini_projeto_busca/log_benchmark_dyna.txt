@@ -1,0 +1,9 @@
+grade             versão                       final   média todos atualiz. Q tempo/seed
+alta_resolucao    Dyna-Q                148.0 ± 3.0   163.7 ± 1.4     3.36 M     47.4 s
+alta_resolucao    Dyna-Q (vetorizado)   147.7 ± 2.6   162.9 ± 1.7     3.34 M     34.9 s
+media_resolucao   Dyna-Q                153.2 ± 2.8   169.6 ± 1.5     1.78 M     39.3 s
+media_resolucao   Dyna-Q (vetorizado)   153.5 ± 2.8   168.7 ± 3.0     1.77 M     33.7 s
+vel_detalhada     Dyna-Q                174.8 ± 7.8   186.6 ± 3.8     3.82 M     47.1 s
+vel_detalhada     Dyna-Q (vetorizado)   177.2 ± 9.1   186.9 ± 5.3     3.83 M     32.5 s
+pos_vel_detalhada Dyna-Q                154.1 ± 2.3   175.6 ± 2.5     1.84 M     32.6 s
+pos_vel_detalhada Dyna-Q (vetorizado)   153.6 ± 2.4   174.6 ± 2.1     1.83 M     34.8 s
